@@ -2,8 +2,6 @@ This repo is meant to automate the build of a custom instance of firecrawl to be
 
 You should be able to clone this repo, add the required environmental variables/secrets via the settings panel and run it manually via the actions tab.
 
-
-```markdown
 # ===== Required ENVS ======
 PORT=3002
 HOST=0.0.0.0
@@ -74,4 +72,3 @@ BULL_AUTH_KEY=CHANGEME
 # Set if you'd like to send posthog events like job logs
 # POSTHOG_API_KEY=
 # POSTHOG_HOST=
-```
